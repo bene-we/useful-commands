@@ -7,6 +7,13 @@ For simple Git commands, have a look here: https://rogerdudler.github.io/git-gui
 
 ## Angular
 
+### Updating the CLI
+`npm uninstall -g angular-cli @angular/cli`
+
+`npm cache verify`
+
+`npm install -g @angular/cli`
+
 ### Serve Angular Application (for development)
 `ng serve --port 4200`
 
