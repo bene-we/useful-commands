@@ -5,6 +5,19 @@ This repository contains useful commands for the daily workflow.
 ## Git Workflow
 For simple Git commands, have a look here: https://rogerdudler.github.io/git-guide/
 
+## Node.js
+
+### Updating npm on Windows
+
+Run PowerShell as Administrator and execute the following:
+```powershell
+Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
+npm install -g npm-windows-upgrade
+npm-windows-upgrade
+```
+
+See https://stackoverflow.com/a/31520672/7456806
+
 ## Angular
 
 ### Updating the CLI
