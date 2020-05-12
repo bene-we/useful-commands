@@ -5,6 +5,10 @@ This repository contains useful commands for the daily workflow.
 ## Git Workflow
 For simple Git commands, have a look here: https://rogerdudler.github.io/git-guide/
 
+Task | Command | Description
+--- | --- | ---
+Revert local changes | `git checkout .` <br> `git clean -fd` | `checkout` reverts all local changes to remote files.<br> `clean -fd` removes untracked files and directories.<br> See https://stackoverflow.com/a/1146981/7456806
+
 ## Node.js
 
 ### Updating npm on Windows
