@@ -11,6 +11,14 @@ Revert local changes | `git checkout .` <br> `git clean -fd` | `checkout` revert
 
 ## Node.js
 
+### windows-nvm
+
+node-version-manager for windows. https://github.com/coreybutler/nvm-windows#node-version-manager-nvm-for-windows
+
+Install Guide: https://docs.microsoft.com/de-de/windows/nodejs/setup-on-windows
+
+Includes npm.
+
 ### npm
 
 Tipps und Helfer für npm-Scripts: https://labs.micromata.de/best-practices/tipps-und-helfer-fuer-npm-run-scripts-teil-1/
