@@ -9,6 +9,15 @@ Task | Command | Description
 --- | --- | ---
 Revert local changes | `git checkout .` <br> `git clean -fd` | `checkout` reverts all local changes to remote files.<br> `clean -fd` removes untracked files and directories.<br> See https://stackoverflow.com/a/1146981/7456806
 
+### Setup Git on new machine
+
+* Install Git for Windows: https://git-scm.com/downloads
+* Run `git config --global user.name "<Vorname> <Nachname>"`
+* Run `git config --global user.email "<Email>"`
+* Run `ssh-keygen -t rsa` and press return 4 times
+* Read public key using `cat ~/.ssh/id_rsa.pub`
+* Copy public key and paste it as a new SSH key: https://github.com/settings/keys
+
 ## Node.js
 
 ### windows-nvm
